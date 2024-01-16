@@ -1,0 +1,743 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Hey","Good day", "Whats up"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+     "responses": ["Sad to see you go..", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "menu_scanning",
+        "patterns": [
+          "How does the menu scanning work?",
+          "Can you explain the menu scanning process?",
+          "What technology is used for menu scanning?",
+          "How do you collect data from physical menus?"
+        ],
+        "responses": [
+          "Our system utilizes Optical Character Recognition (OCR) technology to automatically collect data from physical menus.",
+          "The menu scanning process involves extracting text from menus using OCR technology.",
+          "We fetch menus from various sources, including food ordering apps, restaurant websites, and other credible digital platforms.",
+          "Data collection involves accurate text extraction from diverse menu layouts and styles."
+        ],
+        "context_set": ""
+      }
+      ,
+      {
+        "tag": "food_evaluation",
+        "patterns": [
+          "How are menu items classified as healthy or unhealthy?",
+          "Can you explain the food evaluation algorithm?",
+          "What criteria determine if a food item is healthy?"
+        ],
+        "responses": [
+          "Our algorithm classifies menu items based on nutritional parameters such as calorie count, fats, sugar, and protein content.",
+          "The food evaluation algorithm considers basic nutritional information to determine the healthiness of menu items.",
+          "Criteria for 'healthy' food include factors like calorie count, fats, sugar, and protein, as per our research."
+        ],
+        "context_set": ""
+      }
+      ,
+      {
+        "tag": "chatbot_interaction",
+        "patterns": [
+          "How does the chatbot interact with users?",
+          "Tell me more about the chatbot functionality.",
+          "What information does the chatbot gather from users?"
+        ],
+        "responses": [
+          "The chatbot interacts with users to gather dietary preferences or restrictions, providing personalized food recommendations.",
+          "Our chatbot engages users in conversation to understand specific dietary needs.",
+          "Chatbot interactions involve gathering information on dietary preferences to offer tailored food recommendations."
+        ],
+        "context_set": ""
+      }
+      ,
+      {
+        "tag": "ui_design",
+        "patterns": [
+          "What does the user interface look like?",
+          "Tell me about the design of the user interface.",
+          "Can you describe the UI for this application?"
+        ],
+        "responses": [
+          "The user interface is designed to be simple yet effective, facilitating easy navigation and interaction for menu scanning and chatting with the bot.",
+          "Our UI is crafted to be intuitive, ensuring a seamless experience for users scanning menus and communicating with the chatbot.",
+          "The UI is focused on simplicity and accessibility, catering to users with varying levels of tech experience."
+        ],
+        "context_set": ""
+      }
+      ,
+      {
+        "tag": "data_privacy",
+        "patterns": [
+          "How is user data handled?",
+          "Tell me about data privacy in this application.",
+          "What measures are taken to ensure data privacy?"
+        ],
+        "responses": [
+          "We prioritize user data privacy, ensuring that any collected data is handled securely and responsibly.",
+          "Data privacy is a paramount concern, and we adhere to principles and regulations to handle user information securely.",
+          "Measures are in place to uphold data privacy standards, ensuring responsible handling of any user data collected."
+        ],
+        "context_set": ""
+      },
+       {
+         "tag": "health_advisor",
+         "patterns": ["Tell me about the Health-Conscious Advisor project", "What does the app do?", "Explain the key features", "Why is data privacy important in this project?"],
+         "responses": [
+            "The Health-Conscious Advisor project aims to blend technology with nutrition to help users make informed and health-conscious food choices.",
+            "The app uses OCR technology to scan and analyze restaurant menus, determining the healthiness of food items based on specific nutritional parameters.",
+            "Key features include menu scanning, a food evaluation algorithm, an interactive chatbot with Generative AI, and a bonus UI design. Data privacy is a priority to handle user data securely and responsibly.",
+            "Data privacy is crucial in ensuring user information is handled securely, adhering to basic data privacy principles and regulations."
+         ],
+         "context_set": ""
+      },
+      {
+        "tag": "project_goals",
+        "patterns": [
+          "What are the key goals of this project?",
+          "Can you elaborate on the main objectives of the project?",
+          "What is the primary aim of developing this health-conscious advisor?"
+        ],
+        "responses": [
+          "The main goals include blending technology with nutrition, providing a practical tool for health-conscious individuals.",
+          "We aim to develop a solution that helps users make informed and health-conscious food choices through technology.",
+          "The primary goal is to create a Generative AI-enabled chatbot that assists users in making health-conscious food decisions."
+        ],
+        "context_set": ""
+      },
+  
+           {
+              "tag": "technology_used",
+              "patterns": ["What technologies are used in the project?", "Tell me about OCR technology", "Explain Generative AI"],
+              "responses": [
+                 "The project utilizes Optical Character Recognition (OCR) technology for menu scanning and analysis.",
+                 "OCR technology enables the extraction of text from images, crucial for accurate menu item information. Generative AI powers the chatbot for interactive user communication."
+              ],
+              "context_set": ""
+           },
+           {
+              "tag": "future_enhancements",
+              "patterns": ["Are there plans for future enhancements?", "Tell me about potential updates", "How will the app evolve?"],
+              "responses": [
+                 "Future enhancements may include refining the food evaluation algorithm for more precise health assessments and expanding the chatbot's capabilities.",
+                 "The app aims to evolve based on user feedback and advancements in OCR, AI, and nutrition research."
+              ],
+              "context_set": ""
+           },
+           {
+              "tag": "user_feedback",
+              "patterns": ["How is user feedback incorporated?", "Tell me about the feedback loop", "How can users contribute to improvements?"],
+              "responses": [
+                 "User feedback is valuable for continuous improvement. There's a feedback loop to gather insights and enhance features.",
+                 "Users can contribute by providing feedback on menu analyses, chatbot interactions, and overall user experience, helping shape the app's future updates."
+              ],
+              "context_set": ""
+           },
+           {
+              "tag": "collaborations",
+              "patterns": ["Are there potential collaborations?", "Tell me about partnerships", "How can other businesses integrate with the Health-Conscious Advisor?"],
+              "responses": [
+                 "Potential collaborations may involve partnerships with restaurants, food ordering platforms, or health-related businesses.",
+                 "Integration opportunities exist for businesses to enhance user experiences and promote health-conscious choices through the app."
+              ],
+              "context_set": ""
+           },
+           {
+              "tag": "nutrition_analysis",
+              "patterns": ["How does the app analyze nutrition?", "Tell me about nutritional parameters", "How are healthy choices determined?"],
+              "responses": [
+                 "The app employs advanced nutrition analysis by scanning and analyzing restaurant menus using OCR technology.",
+                 "Nutritional parameters such as calorie count, fats, sugar, and protein content are considered to determine whether a food item is healthy or unhealthy.",
+                 "Healthy choices are determined based on predefined criteria that prioritize a balanced nutritional profile, aligning with established health guidelines."
+              ],
+              "context_set": ""
+           },
+           {
+              "tag": "customization",
+              "patterns": ["Can users customize their nutritional preferences?", "Tell me about personalized recommendations", "How flexible is the dietary advice?"],
+              "responses": [
+                 "Yes, users can customize their nutritional preferences through interactive chatbot interactions.",
+                 "The app provides personalized recommendations by taking into account user-specific dietary preferences, restrictions, and health goals.",
+                 "Dietary advice is flexible and tailored to individual preferences, promoting a user-centric and adaptable approach to healthy eating."
+              ],
+              "context_set": ""
+           },
+           {
+              "tag": "nutritional_criteria",
+              "patterns": ["What criteria define 'healthy' food?", "How are nutritional thresholds determined?", "Tell me about the algorithm's nutritional criteria"],
+              "responses": [
+                 "'Healthy' food is defined based on nutritional criteria such as balanced calorie content, lower saturated fats, limited added sugars, and sufficient protein.",
+                 "Nutritional thresholds are determined through a combination of established health guidelines, nutritional research, and user preferences.",
+                 "The algorithm's nutritional criteria aim to offer a comprehensive assessment, ensuring users receive accurate and meaningful information for making health-conscious choices."
+              ],
+              "context_set": ""
+           },
+           {
+              "tag": "educational_component",
+              "patterns": ["Does the app have an educational component?", "Tell me about nutritional education", "How does the app inform users about healthy choices?"],
+              "responses": [
+                 "Yes, the app includes an educational component to inform users about nutritional aspects and healthy choices.",
+                 "Users receive information about the nutritional benefits of certain food choices, helping them make informed decisions.",
+                 "The educational component aims to empower users with knowledge, fostering long-term habits for health-conscious living."
+              ],
+              "context_set": ""
+           }
+        ,
+     {
+        "tag": "health_condition_food",
+        "patterns": [
+          "What type of food should I have if I have a cold?",
+          "Can you suggest foods suitable for someone with a cold?",
+          "Tell me about recommended foods for cold relief."
+        ],
+        "responses": [
+          "If you have a cold, it's advisable to consume warm and soothing foods like chicken soup, hot tea, and broth. These can help relieve symptoms and provide comfort.",
+          "For a cold, consider having warm and nourishing foods such as chicken soup, herbal tea, and steamed vegetables. These choices can contribute to your recovery.",
+          "When experiencing a cold, opt for foods like chicken soup, ginger tea, and honey. These can help soothe symptoms and support your overall well-being."
+        ],
+        "context_set": ""
+      },
+           {
+              "tag": "highest_nutritional_values",
+              "patterns": ["What are some foods with the highest nutritional values?", "Tell me about nutrient-rich foods", "Which foods are most beneficial for health?"],
+              "responses": [
+                 "Certainly! Here are some foods known for their high nutritional values:",
+                 "1. **Salmon:** Rich in omega-3 fatty acids, protein, and various vitamins.",
+                 "2. **Kale:** Packed with vitamins A, K, and C, and a good source of antioxidants.",
+                 "3. **Blueberries:** High in antioxidants and vitamins, known for their health benefits.",
+                 "4. **Quinoa:** A complete protein source, containing all essential amino acids.",
+                 "5. **Almonds:** Full of healthy fats, protein, vitamins, and minerals.",
+                 "6. **Sweet Potatoes:** Rich in fiber, vitamins, and antioxidants.",
+                 "7. **Broccoli:** High in fiber, vitamin C, and various nutrients.",
+                 "Remember to include a variety of nutrient-dense foods for a well-balanced and healthy diet!"
+              ],
+              "context_set": ""
+           }
+        ,
+     {
+        "tag": "healthy_snacks",
+        "patterns": [
+          "What are some healthy snack options?",
+          "Can you suggest nutritious snacks?",
+          "Tell me about healthy snack choices."
+        ],
+        "responses": [
+          "Healthy snack options include fruits like apples or bananas, nuts such as almonds or walnuts, and yogurt with berries. These choices provide a balance of nutrients for a satisfying snack.",
+          "Consider nutritious snacks like carrot sticks with hummus, Greek yogurt with granola, or a handful of mixed nuts. These options offer a combination of flavors and health benefits.",
+          "For healthy snacking, try options like sliced cucumber with guacamole, a smoothie with spinach and fruits, or a small bowl of trail mix. These snacks are both tasty and nourishing."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "energy_boosting_foods",
+        "patterns": [
+          "What foods can boost my energy?",
+          "Can you recommend energy-boosting foods?",
+          "Tell me about foods that provide a quick energy boost."
+        ],
+        "responses": [
+          "To boost energy, consider foods like bananas, nuts, and whole grains. These provide a quick source of energy to keep you fueled throughout the day.",
+          "For a quick energy boost, try snacks like a banana with peanut butter, trail mix with dried fruits and nuts, or whole-grain crackers with cheese. These choices provide sustained energy.",
+          "Include energy-boosting foods in your diet, such as oatmeal with berries, a smoothie with spinach and banana, or a handful of almonds. These options can help enhance your vitality."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "stress_relief_foods",
+        "patterns": [
+          "What foods can help relieve stress?",
+          "Can you suggest stress-relieving foods?",
+          "Tell me about foods that promote stress relief."
+        ],
+        "responses": [
+          "Foods that may help relieve stress include dark chocolate, berries, and green tea. These contain antioxidants and compounds that contribute to stress reduction.",
+          "Consider stress-relieving foods like a cup of chamomile tea, a bowl of mixed berries, or a square of dark chocolate. These choices can have calming effects on the body.",
+          "Incorporate stress-relief foods into your diet, such as a handful of almonds, a banana, or a cup of herbal tea. These options can support relaxation and reduce stress levels."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "brain_boosting_foods",
+        "patterns": [
+          "What foods can boost brain health?",
+          "Can you recommend foods for improved cognitive function?",
+          "Tell me about foods that enhance brain function."
+        ],
+        "responses": [
+          "Foods that support brain health include fatty fish, blueberries, and nuts. These contain nutrients that contribute to cognitive function and memory.",
+          "Enhance brain function with foods like salmon, blueberries, and walnuts. These choices provide essential nutrients for cognitive health and mental clarity.",
+          "Include brain-boosting foods in your diet, such as avocado, berries, and dark leafy greens. These options support overall brain health and cognitive function."
+        ],
+        "context_set": ""
+      },
+           {
+              "tag": "lowest_nutritional_values",
+              "patterns": ["Tell me about foods with lower nutritional values", "Which foods have lower nutritional benefits?", "What are some less nutritious options?"],
+              "responses": [
+                 "Certainly! Here are some foods that are generally considered to have lower nutritional values:",
+                 "1. **Soda:** High in added sugars, providing empty calories with little to no nutritional benefit.",
+                 "2. **Candy and Sweets:** Often high in sugars and low in essential nutrients.",
+                 "3. **Processed Snack Foods:** Many packaged snacks are high in unhealthy fats, sugars, and sodium.",
+                 "4. **Fast Food Burgers and Fries:** Typically high in saturated fats, sodium, and calories.",
+                 "5. **White Bread:** Lower in fiber and nutrients compared to whole-grain alternatives.",
+                 "6. **Pastries and Baked Goods:** Often high in sugars, unhealthy fats, and refined flours.",
+                 "7. **Processed Meats:** Can be high in sodium and saturated fats.",
+                 "It's important to be mindful of these options and prioritize a balanced diet with nutrient-dense foods for overall health."
+              ],
+              "context_set": ""
+           
+     }
+,
+           {
+              "tag": "food_illness_symptoms2",
+              "patterns": ["What foods help with specific illnesses?", "Tell me about foods for different symptoms", "Which foods can alleviate certain health conditions?"],
+              "responses": [
+                 "Certainly! Here are some foods that may help with specific illnesses and symptoms:",
+                 "**1. Cold and Flu:**",
+                 "- Hot soup: Provides hydration and soothes a sore throat.",
+                 "- Citrus fruits: Rich in vitamin C to boost the immune system.",
+                 "- Ginger tea: Known for its anti-inflammatory properties.",
+                 "**2. Digestive Issues:**",
+                 "- Bananas: Easily digestible and help with upset stomach.",
+                 "- Yogurt: Contains probiotics that aid in digestion.",
+                 "- Peppermint tea: Can relieve symptoms of indigestion.",
+                 "**3. Insomnia:**",
+                 "- Almonds: Rich in magnesium, promoting relaxation.",
+                 "- Chamomile tea: Known for its calming effects.",
+                 "- Fatty fish (salmon, trout): High in omega-3s, supporting sleep.",
+                 "**4. High Blood Pressure:**",
+                 "- Leafy greens (spinach, kale): Rich in potassium, which helps regulate blood pressure.",
+                 "- Oats: Contain beta-glucans that may contribute to lower blood pressure.",
+                 "- Berries: Packed with antioxidants beneficial for heart health.",
+                 "These are general recommendations, and it's important to consult with a healthcare professional for personalized advice based on individual health conditions."
+              ],
+              "context_set": ""
+           },
+     {
+        "tag": "weight_management_foods1",
+        "patterns": [
+          "What foods are good for weight management?",
+          "Can you suggest foods for maintaining a healthy weight?",
+          "Tell me about foods that support weight loss."
+        ],
+        "responses": [
+          "For weight management, consider foods like lean proteins, whole grains, and plenty of vegetables. These choices provide nutrients while supporting a healthy weight.",
+          "Include foods for weight management, such as grilled chicken, quinoa, and a variety of colorful vegetables. These options offer a balanced and satisfying approach to maintaining weight.",
+          "Support weight loss with foods like salads with lean protein, vegetable stir-fries, and fruit salads. These choices can help you achieve and maintain a healthy weight."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "immune_boosting_foods",
+        "patterns": [
+          "What foods can boost the immune system?",
+          "Can you recommend immune-boosting foods?",
+          "Tell me about foods that strengthen the immune system."
+        ],
+        "responses": [
+          "Boost the immune system with foods like citrus fruits, garlic, and yogurt. These choices provide essential nutrients that support immune function.",
+          "Include immune-boosting foods in your diet, such as spinach, almonds, and oranges. These options contain vitamins and minerals that contribute to a strong immune system.",
+          "Support immune health with foods like green tea, berries, and broccoli. These choices can help enhance the body's natural defense mechanisms."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "digestive_health_foods1",
+        "patterns": [
+          "What foods promote digestive health?",
+          "Can you suggest foods for a healthy digestive system?",
+          "Tell me about foods that support digestion."
+        ],
+        "responses": [
+          "Promote digestive health with foods like yogurt, bananas, and whole grains. These choices contain probiotics and fiber that contribute to a healthy digestive system.",
+          "Include foods for digestive health, such as kefir, papaya, and brown rice. These options support the balance of gut bacteria and overall digestive well-being.",
+          "Support digestion with foods like ginger tea, sauerkraut, and oats. These choices can help maintain a healthy digestive system and prevent discomfort."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "hydration_tips",
+        "patterns": [
+          "How can I stay hydrated?",
+          "Can you provide tips for staying hydrated?",
+          "Tell me about the importance of hydration."
+        ],
+        "responses": [
+          "Stay hydrated by drinking plenty of water throughout the day. Consider adding slices of citrus fruits or cucumber for added flavor.",
+          "Tips for staying hydrated include carrying a reusable water bottle, setting reminders to drink water, and choosing water-rich foods like watermelon and cucumber.",
+          "Hydration is essential for overall health. Ensure you drink an adequate amount of water daily, and incorporate hydrating foods such as celery, oranges, and melons into your diet."
+        ],
+        "context_set": ""
+      },
+           {
+              "tag": "food_illness_symptoms1",
+              "patterns": ["What foods help with specific illnesses?", "Tell me about foods for different symptoms", "Which foods can alleviate certain health conditions?"],
+              "responses": [
+                 "Certainly! Here are more foods associated with specific health conditions and symptoms:",
+                 "**1. Arthritis:**",
+                 "- Fatty fish (salmon, mackerel): Omega-3 fatty acids can help reduce inflammation.",
+                 "- Turmeric: Contains curcumin, known for its anti-inflammatory properties.",
+                 "- Nuts and seeds: Rich in antioxidants and healthy fats.",
+                 "**2. Diabetes:**",
+                 "- Leafy greens (spinach, kale): Low in carbohydrates and high in nutrients.",
+                 "- Berries: Contain antioxidants and fiber for blood sugar control.",
+                 "- Quinoa: A whole grain with a low glycemic index.",
+                 "**3. Skin Conditions (e.g., Eczema):**",
+                 "- Fatty fish (salmon, sardines): Omega-3s may help reduce inflammation.",
+                 "- Avocado: Contains healthy fats that can support skin health.",
+                 "- Probiotic-rich foods (yogurt, kefir): May promote gut health, influencing skin conditions.",
+                 "**4. Migraines:**",
+                 "- Magnesium-rich foods (spinach, almonds): May help reduce the frequency of migraines.",
+                 "- Ginger: Known for its anti-inflammatory properties.",
+                 "- Dark chocolate (in moderation): Contains magnesium and may help relax blood vessels.",
+                 "Remember, these suggestions are general and may not replace professional medical advice. Consult with a healthcare professional for personalized recommendations."
+              ],
+              "context_set": ""
+           }
+      ,
+
+           {
+              "tag": "food_illness_symptoms3",
+              "patterns": ["What foods help with specific illnesses?", "Tell me about foods for different symptoms", "Which foods can alleviate certain health conditions?"],
+              "responses": [
+                 "Certainly! Here are more foods associated with specific health conditions and symptoms:",
+                 "**1. Osteoporosis (Bone Health):**",
+                 "- Dairy products (milk, yogurt, cheese): Rich in calcium for bone health.",
+                 "- Leafy greens (collard greens, kale): Good sources of calcium and vitamin K.",
+                 "- Fortified foods: Choose products with added vitamin D for better calcium absorption.",
+                 "**2. Anemia:**",
+                 "- Iron-rich foods (red meat, poultry, fish): Important for hemoglobin production.",
+                 "- Legumes (lentils, beans): Good plant-based sources of iron.",
+                 "- Vitamin C-rich foods (citrus fruits, strawberries): Enhance iron absorption.",
+                 "**3. Anxiety and Stress:**",
+                 "- Complex carbohydrates (whole grains, sweet potatoes): Provide steady energy and may boost serotonin levels.",
+                 "- Fatty fish (salmon, trout): Rich in omega-3 fatty acids, which may have mood-stabilizing effects.",
+                 "- Dark chocolate (in moderation): Contains compounds that may reduce stress hormones.",
+                 "**4. Common Cold:**",
+                 "- Garlic: Known for its immune-boosting properties.",
+                 "- Citrus fruits (oranges, grapefruits): High in vitamin C to support the immune system.",
+                 "- Chicken soup: Provides hydration and can help soothe a sore throat.",
+                 "Remember, these dietary suggestions are not a substitute for professional medical advice. Consult with healthcare providers for personalized recommendations based on individual health needs."
+              ],
+              "context_set": ""
+           
+     },
+      {
+        "tag": "brain_health_foods",
+        "patterns": [
+          "What foods are good for brain health?",
+          "Can you suggest foods that support cognitive function?",
+          "Tell me about foods that contribute to a healthy brain."
+        ],
+        "responses": [
+          "Promote brain health with foods like fatty fish, blueberries, and nuts. These choices contain omega-3 fatty acids and antioxidants that support cognitive function.",
+          "Include foods for brain health, such as avocados, broccoli, and pumpkin seeds. These options provide essential nutrients that contribute to a healthy and sharp mind.",
+          "Support cognitive function with foods like eggs, spinach, and walnuts. These choices can help maintain brain health and improve concentration."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "stress_management_foods",
+        "patterns": [
+          "What foods can help manage stress?",
+          "Can you recommend foods for reducing stress levels?",
+          "Tell me about foods that support stress management."
+        ],
+        "responses": [
+          "Manage stress with foods like green tea, dark chocolate, and almonds. These choices contain compounds that may help reduce stress and promote relaxation.",
+          "Include stress-management foods in your diet, such as oats, oranges, and yogurt. These options provide nutrients that support the body's response to stress.",
+          "Support stress reduction with foods like salmon, bananas, and chamomile tea. These choices can contribute to a sense of calm and well-being."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "muscle_recovery_foods",
+        "patterns": [
+          "What foods are good for muscle recovery?",
+          "Can you suggest foods that aid in muscle recovery?",
+          "Tell me about foods that support post-exercise recovery."
+        ],
+        "responses": [
+          "Support muscle recovery with foods like lean protein, sweet potatoes, and cherry juice. These choices provide nutrients that aid in the repair and recovery of muscles.",
+          "Include muscle recovery foods in your diet, such as Greek yogurt, quinoa, and pineapple. These options offer a combination of protein and carbohydrates to support post-exercise recovery.",
+          "Aid in muscle recovery with foods like eggs, blueberries, and spinach. These choices can help reduce muscle soreness and promote faster healing."
+        ],
+        "context_set": ""
+      }
+      ,
+      {
+        "tag": "weight_management_foods1",
+        "patterns": [
+          "What foods can help with weight management?",
+          "Can you recommend foods for maintaining a healthy weight?",
+          "Tell me about foods that support weight loss."
+        ],
+        "responses": [
+          "Support weight management with foods like vegetables, fruits, and lean proteins. These choices provide essential nutrients while being low in calories.",
+          "Include weight-management foods in your diet, such as beans, whole grains, and nuts. These options offer fiber and healthy fats that contribute to a feeling of fullness.",
+          "Promote weight loss with foods like green leafy vegetables, berries, and lean poultry. These choices can aid in the process of shedding excess weight."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "immune_system_boosting_foods",
+        "patterns": [
+          "What foods can boost the immune system?",
+          "Can you suggest foods for strengthening the immune system?",
+          "Tell me about foods that support immune health."
+        ],
+        "responses": [
+          "Boost the immune system with foods like citrus fruits, garlic, and ginger. These choices contain vitamins and antioxidants that enhance immune function.",
+          "Include immune system-boosting foods in your diet, such as yogurt, almonds, and turmeric. These options provide nutrients that contribute to a strong immune response.",
+          "Support immune health with foods like broccoli, kiwi, and mushrooms. These choices can help your body defend against infections and illnesses."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "digestive_health_foods",
+        "patterns": [
+          "What foods are good for digestive health?",
+          "Can you recommend foods for a healthy digestive system?",
+          "Tell me about foods that support digestion."
+        ],
+        "responses": [
+          "Promote digestive health with foods like yogurt, bananas, and whole grains. These choices contain probiotics and fiber that support a healthy gut.",
+          "Include digestive health foods in your diet, such as papaya, ginger, and peppermint. These options can aid in digestion and alleviate digestive discomfort.",
+          "Support a healthy digestive system with foods like apples, broccoli, and kefir. These choices contribute to a balanced and efficient digestive process."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "sleep_supportive_foods",
+        "patterns": [
+          "What foods can support better sleep?",
+          "Can you suggest foods for promoting sleep quality?",
+          "Tell me about foods that aid in getting a good night's sleep."
+        ],
+        "responses": [
+          "Support better sleep with foods like almonds, warm milk, and bananas. These choices contain nutrients that may enhance sleep quality.",
+          "Include sleep-supportive foods in your evening routine, such as oats, cherries, and herbal tea. These options can contribute to a relaxed and restful night's sleep.",
+          "Promote sleep quality with foods like turkey, kiwi, and whole grains. These choices provide substances that may help regulate sleep patterns."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "health_condition1",
+        "patterns": ["I have a cold and cough, what should I eat?", "What foods are recommended for someone with a cold?", "Can you suggest a diet for someone experiencing cough and cold?", "What type of food is suitable during a cold and cough?"],
+        "responses": ["If you have a cold and cough, it's recommended to eat...", "Foods that may help alleviate cold symptoms include...", "For someone with a cold, a diet rich in...", "During a cold and cough, consider incorporating foods like..."],
+        "context_set": ""
+      },
+      {
+        "tag": "health_condition",
+        "patterns": ["I have a migraine, what should I eat?", "What foods are recommended for someone with a migraine?", "Can you suggest a diet for someone experiencing migraines?", "What type of food is suitable during a migraine?"],
+        "responses": [
+          "If you have a migraine, it's recommended to focus on foods that may help alleviate symptoms. Consider incorporating magnesium-rich foods like leafy greens, nuts, and seeds. Additionally, try to stay hydrated by drinking plenty of water throughout the day.",
+          "Foods that may help manage migraines include those with anti-inflammatory properties, such as fatty fish, flaxseeds, and berries. Avoid triggers like caffeine, aged cheeses, and processed foods. Opt for a well-balanced diet with whole, unprocessed foods.",
+          "For someone experiencing migraines, a diet that supports stable blood sugar levels can be beneficial. Include complex carbohydrates like whole grains, fruits, and vegetables. Limit intake of artificial additives and preservatives, as they may act as triggers.",
+          "During a migraine, consider incorporating foods like fresh fruits, vegetables, and lean proteins. Stay away from potential triggers such as processed meats, chocolate, and caffeine. Adequate hydration and a consistent eating schedule may also contribute to symptom management."
+        ],
+        "context_set": ""
+      }
+      ,
+           {
+              "tag": "gym_diet",
+              "patterns": ["What foods are good for a gym diet?", "Tell me about foods for muscle building", "Which foods support a workout routine?"],
+              "responses": [
+                 "Absolutely! Here are some foods that are beneficial for a gym diet, particularly for muscle building and supporting a workout routine:\n1. Lean Proteins:\n\t- Chicken breast: A lean source of protein essential for muscle repair.\n\t- Eggs: Packed with high-quality protein and amino acids.\n\t- Greek yogurt: Contains protein and helps with post-workout recovery.\n2. Complex Carbohydrates:\n\t- Quinoa: A complete protein source and a good complex carbohydrate.\n\t- Sweet potatoes: Provide sustained energy and contain essential nutrients.\n\t- Brown rice: Rich in carbohydrates for fueling workouts.\n3. Healthy Fats:\n\t- Avocado: Loaded with monounsaturated fats and nutrients.\n\t- Nuts (almonds, walnuts): Provide healthy fats and energy.\n\t- Olive oil: A good source of heart-healthy fats.\n4. Fruits and Vegetables:\n\t- Berries: Packed with antioxidants for recovery.\n\t- Spinach: Rich in iron and other nutrients.\n\t- Bananas: A quick source of energy and potassium.\n5. Hydration:\n\t- Water: Essential for staying hydrated during and after workouts.\n\t- Coconut water: Contains electrolytes for rehydration.\n\t- Green tea: Provides antioxidants and a mild caffeine boost.\nRemember to personalize your diet based on your specific fitness goals, and consult with a nutritionist for tailored advice."
+              ],
+              "context_set": ""
+     }
+,
+           {
+              "tag": "better_digestion",
+              "patterns": ["Tell me about foods for better digestion", "What can I eat for improved digestion?", "Which foods aid in digestion?"],
+              "responses": [
+                 "Absolutely! Here are some foods that are known to support better digestion:\n1. Fiber-Rich Foods:\n\t- Whole grains (oats, quinoa, brown rice): Promote regular bowel movements.\n\t- Legumes (lentils, chickpeas): High in fiber for digestive health.\n\t- Chia seeds: Provide soluble fiber and omega-3 fatty acids.\n2. Probiotic-Rich Foods:\n\t- Yogurt: Contains live cultures that promote gut health.\n\t- Kimchi: Fermented cabbage with probiotics for a healthy gut.\n\t- Kombucha: A fermented tea with probiotic benefits.\n3. Ginger:\n\t- Fresh ginger: Known for its anti-inflammatory and digestive properties.\n\t- Ginger tea: Soothes the digestive tract and alleviates nausea.\n4. Papaya:\n\t- Contains enzymes like papain that aid in digestion.\n\t- Rich in fiber and vitamins for overall digestive health.\n5. Peppermint:\n\t- Peppermint tea: Relieves indigestion and relaxes the digestive tract.\n\t- Fresh peppermint leaves: Can be added to meals for flavor and digestion.\n6. Fennel Seeds:\n\t- Helps relieve bloating and supports smooth digestion.\n\t- Chew fennel seeds after meals for a natural digestive aid.\nIncorporating these foods into your diet may contribute to improved digestion, but it's essential to maintain a balanced and varied diet for overall health."
+              ],
+              "context_set": ""
+           
+     },
+           {
+              "tag": "full_diet_plan",
+              "patterns": ["Can you provide a sample diet plan?", "Tell me about a balanced diet", "What foods should I include in my diet?"],
+              "responses": [
+                 "Certainly! Here's a sample balanced diet plan that includes a variety of nutrients:\nBreakfast:\n\t- Whole-grain oats with berries and a handful of almonds.\n\t- Greek yogurt with sliced banana and a drizzle of honey.\n\t- Green tea or black coffee for a morning boost.\nMid-Morning Snack:\n\t- A piece of fruit (apple, pear, or orange).\n\t- A small handful of mixed nuts (walnuts, almonds, and cashews).\nnLunch:\n\t- Grilled chicken or tofu salad with mixed greens, cherry tomatoes, cucumber, and olive oil vinaigrette.\n\t- Quinoa or brown rice as a side.\n\t- Water or herbal tea to stay hydrated.\nAfternoon Snack:\n\t- Carrot and cucumber sticks with hummus.\n\t- A small cup of low-fat yogurt.\nDinner:\n\t- Baked salmon or a plant-based protein source (beans, lentils).\n\t- Steamed broccoli, sweet potatoes, and quinoa.\n\t- A side of mixed green salad with lemon-tahini dressing.\nEvening Snack (if needed):\n\t- A small bowl of mixed berries or a piece of dark chocolate.\nHydration Throughout the Day:\n\t- Drink at least 8 glasses of water or more.\n\t- Herbal teas or infused water for variety.\nRemember, this is a general example. Adjust portion sizes and food choices based on your individual needs, preferences, and any specific health considerations you may have. It's always a good idea to consult with a nutrition professional for personalized guidance."
+              ],
+              "context_set": ""
+          
+     }
+,
+           {
+              "tag": "weekly_diet_plan",
+              "patterns": ["Can you provide a sample weekly diet plan?", "Tell me about a balanced weekly diet", "What foods should I include in my weekly meal plan?"],
+              "responses": [
+                 "Of course! Here's a sample weekly diet plan for a balanced and nutritious approach:\nMonday:\n\t- Breakfast:Scrambled eggs with spinach and whole-grain toast.\n\t- Lunch: Quinoa salad with mixed vegetables and grilled chicken.\n\t- Dinner:Baked salmon, sweet potato, and steamed broccoli.\n Tuesday:\n\t- Breakfast:** Greek yogurt parfait with berries and granola.\n\t- Lunch: Whole-grain wrap with turkey, avocado, lettuce, and tomato.\n\t- Dinner:** Stir-fried tofu with brown rice and mixed vegetables.\nWednesday:\n\t- Breakfast: Oatmeal topped with sliced banana and almonds.\n\t-Lunch:Lentil soup with a side of whole-grain bread.\n\t- Dinner: Grilled shrimp with quinoa and roasted asparagus.\nThursday:\n\t- Breakfast: Smoothie with spinach, banana, almond milk, and protein powder.\n\t- Lunch: Chickpea salad with feta cheese, cherry tomatoes, and cucumbers.\n\t- Dinner: Baked chicken breast, wild rice, and sautéed Brussels sprouts.\nFriday:\n\t- Breakfast: Whole-grain pancakes with berries and a dollop of Greek yogurt.\n\t- Lunch: Caprese salad with whole-grain crackers.\n\t- Dinner: Vegetable stir-fry with tofu and brown rice.\nSaturday:\n\t- Breakfast: Avocado toast with poached eggs and cherry tomatoes.\n\t- Lunch: Quinoa bowl with black beans, corn, avocado, and salsa.\n\t- Dinner: Grilled steak, sweet potato wedges, and steamed green beans.\nSunday:\n\t- Breakfast: Whole-grain waffles with fresh fruit and a sprinkle of chia seeds.\n\t- Lunch: Mediterranean-style couscous salad with grilled chicken.\n\t- Dinner: Baked cod with lemon-dill sauce, quinoa, and roasted carrots.\nFeel free to adjust portion sizes and food choices based on your preferences and dietary needs. This plan provides a variety of nutrients and food groups throughout the week."
+              ],
+              "context_set": ""
+           }
+      
+,
+     
+           {
+              "tag": "healthy_juice_recommendations",
+              "patterns": ["Can you recommend some healthy juices?", "Tell me about nutritious juice options", "What juices are good for health?"],
+              "responses": [
+                 "Absolutely! Here are some healthy juice recommendations that provide a mix of vitamins, minerals, and antioxidants:\n1. Green Juice:\n\t- Ingredients: Kale, spinach, cucumber, celery, green apple, and a squeeze of lemon.\n\t- Benefits: Rich in vitamins A and C, antioxidants, and may support overall health.\n2. Beet and Berry Juice:\n\t- Ingredients: Beets, mixed berries (blueberries, raspberries), carrots, and a hint of ginger.\n\t- Benefits: High in antioxidants, may support cardiovascular health, and provides essential nutrients.\n3. Citrus Burst Juice:\n\t- Ingredients: Oranges, grapefruits, and a dash of lime.\n\t- Benefits: Packed with vitamin C, supports immune health, and provides a refreshing flavor.\n4. Carrot and Ginger Elixir:\n\t- Ingredients: Carrots, apples, ginger, and a splash of orange juice.\n\t- Benefits: Contains beta-carotene, anti-inflammatory properties, and aids digestion.\n5. Pineapple Mint Refresher:\n\t- Ingredients: Pineapple chunks, mint leaves, cucumber, and a touch of lime.\n\t- Benefits: Hydrating, rich in vitamin C, and may aid digestion.\n6. Turmeric Tonic:\n\t- Ingredients: Turmeric, ginger, carrots, and a squeeze of lemon.\n\t- Benefits: Anti-inflammatory, may support joint health, and provides a warm, earthy flavor.\n7. Watermelon Basil Bliss:\n\t- Ingredients: Fresh watermelon chunks and basil leaves.\n\t- Benefits: Hydrating, rich in vitamins A and C, and a perfect summer refresher.\nRemember to enjoy these juices in moderation as part of a well-balanced diet. Experiment with different combinations to find your favorite flavors!"
+              ],
+              "context_set": ""
+ 
+     }
+,
+           {
+              "tag": "healthy_fruits_and_meals",
+              "patterns": ["Can you recommend healthy fruits and meals?", "Tell me about nutritious food options", "What are some healthy meal ideas?"],
+              "responses": [
+                 "Absolutely! Here are some healthy fruits and meal recommendations to help you maintain a balanced diet:\nHealthy Fruits:\n1. Berries:\n\t- Blueberries, strawberries, raspberries: Rich in antioxidants, vitamins, and fiber.\n2. Citrus Fruits:\n\t- Oranges, grapefruits, lemons: High in vitamin C, supports immune health.\n3. Apples:\n\t- A good source of fiber, vitamins, and antioxidants.\n4. Bananas:\n\t- Provides potassium, vitamins, and a quick energy boost.\n5. Avocado:\n\t- Packed with healthy fats, vitamins, and minerals.\nNutrient-Rich Meals:\n1. Grilled Salmon with Quinoa and Vegetables:\n\t- Salmon provides omega-3 fatty acids, quinoa offers protein and fiber, and vegetables add vitamins and minerals.\n2. Chickpea and Vegetable Stir-Fry:\n\t- Chickpeas are rich in protein, stir-fried vegetables offer vitamins, and brown rice completes the meal with complex carbohydrates.\n3. Spinach and Feta Stuffed Chicken Breast:\n\t- Lean chicken breast stuffed with spinach and feta, a protein-packed and flavorful dish.\n4. Lentil Soup with Kale and Tomatoes:\n\t- Lentils are a great source of protein, and kale and tomatoes add vitamins and antioxidants.\n5. Greek Salad with Grilled Chicken:\n\t- A refreshing salad with tomatoes, cucumbers, feta, olives, and grilled chicken for a protein boost.\n6. Quinoa Salad with Mixed Vegetables:\n\t- Quinoa provides protein and fiber, while mixed vegetables add color, flavor, and additional nutrients.\nRemember to customize your meals based on your dietary preferences and needs. Aim for a variety of colorful fruits and vegetables to ensure you get a wide range of nutrients."
+              ],
+              "context_set": ""
+       
+     }
+,
+           {
+              "tag": "exercise_practices",
+              "patterns": ["Tell me about best exercise practices", "What are effective workout tips?", "How to build a successful exercise routine?"],
+              "responses": [
+                 "Absolutely! Here are some best exercise practices to help you achieve a successful and effective workout routine:\n1. Set Clear Goals:\n\t- Define your fitness goals, whether it's weight loss, muscle gain, improved flexibility, or overall health. This will guide your exercise choices.\n2. Start with Warm-Up and Cool Down:\n\t- Begin each session with a 5-10 minute warm-up to increase blood flow and flexibility. End with a cool-down to help your heart rate gradually return to normal.\n3. Mix Cardiovascular and Strength Training:\n\t- Include a combination of cardiovascular exercises (running, cycling) and strength training (weight lifting, bodyweight exercises) for overall fitness.\n4. Focus on Proper Form:\n\t- Pay attention to your form to prevent injuries. If unsure, consider working with a fitness professional to learn proper techniques.\n5. Gradually Increase Intensity:\n\t- Progressively increase the intensity of your workouts to challenge your body and avoid plateaus. This can include adding more weight, increasing repetitions, or trying more challenging exercises.\n6. Include Flexibility and Mobility Training:\n\t- Incorporate stretching and mobility exercises to improve flexibility and reduce the risk of injury.\n7. Listen to Your Body:\n\t- Pay attention to how your body feels during and after exercise. Rest when needed and don't push yourself too hard, especially if you're just starting out.\n8. Stay Hydrated:\n\t- Drink water before, during, and after your workout to stay hydrated. Proper hydration is crucial for overall health and performance.\n9. Get Adequate Rest:\n\t- Allow your body time to recover. Aim for 7-9 hours of quality sleep each night to support muscle recovery and overall well-being.\n10. Consistency is Key:\n\t- Stick to your workout routine. Consistency is essential for seeing long-term results.\nRemember, everyone's body is different, so it's important to find a routine that works for you. If you have any health concerns, consult with a professional for personalized advice."
+              ],
+              "context_set": ""
+           }
+,
+   
+           {
+              "tag": "food_for_surgeries",
+              "patterns": ["What foods are recommended for post-surgery recovery?", "Tell me about a diet after surgery", "Recommendations for recovery nutrition"],
+              "responses": [
+                 "Certainly! Here are some general dietary recommendations to support post-surgery recovery\n1. Adequate Protein Intake:\n\t- Include protein-rich foods like lean meats, poultry, fish, eggs, dairy, beans, and legumes. Protein is essential for tissue repair and healing.\n2. Nutrient-Dense Foods:\n\t- Choose a variety of nutrient-dense foods such as fruits, vegetables, whole grains, nuts, and seeds to provide essential vitamins and minerals.\n3. Hydration:\n\t- Drink plenty of water to stay hydrated. Proper hydration supports healing and helps prevent complications.\n4. Healthy Fats:\n\t- Include sources of healthy fats such as avocados, nuts, seeds, and olive oil to support overall health.\n5. Fiber-Rich Foods:\n\t- Choose fiber-rich foods like whole grains, fruits, and vegetables to support digestion and prevent constipation, which can be common after surgery.\n6. Vitamin C-Rich Foods:\n\t- Include foods high in vitamin C, such as citrus fruits, strawberries, and bell peppers, as vitamin C is important for wound healing.\n7. Omega-3 Fatty Acids:\n\t- Incorporate fatty fish (salmon, mackerel), flaxseeds, and walnuts for their anti-inflammatory properties.\n8. Small, Frequent Meals:\n\t- Instead of large meals, consider smaller, more frequent meals to make digestion easier and prevent discomfort.\n9. Limit Processed Foods and Added Sugars:\n\t- Minimize the intake of processed foods and added sugars, as they can contribute to inflammation and hinder the healing process.\n10. Follow Medical Recommendations:\n\t- Adhere to any dietary guidelines provided by your healthcare team. They may have specific recommendations based on your surgery and individual health needs.\nAlways consult with your healthcare team, including your surgeon and a registered dietitian, for personalized dietary advice tailored to your recovery and specific health conditions."
+              ],
+              "context_set": ""
+        
+     }
+,
+     {
+        "tag": "food_recommendations",
+        "patterns": ["What foods are recommended for blood pressure?", "Tell me about a balanced diet", "Recommendations for managing blood pressure"],
+        "responses": [
+          "Certainly! Here are some dietary recommendations for managing blood pressure:",
+          {
+            "condition": "high_blood_pressure",
+            "recommendations": 
+              ["Low-Sodium Foods: Reduce salt intake by choosing low-sodium alternatives.\nPotassium-Rich Foods: Include bananas, oranges, potatoes, tomatoes, and leafy green vegetables.\nHeart-Healthy Fats: Opt for avocados, nuts, seeds, and olive oil, while limiting saturated and trans fats.\nOmega-3 Fatty Acids: Consume fatty fish, flaxseeds, and walnuts for heart-protective omega-3 fatty acids.\nFiber-Rich Foods: Choose whole grains, fruits, vegetables, and legumes for their fiber content.\nLean Proteins: Prioritize poultry, fish, beans, and legumes as sources of lean protein."
+            ]
+          },
+          {
+            "condition": "low_blood_pressure",
+            "recommendations": 
+             ["Increase Fluid and Salt Intake: Drink more fluids and consider a slight increase in salt intake under professional guidance.\nSmall, Frequent Meals: Eat smaller, more frequent meals to help maintain blood sugar levels.\nCaffeine: Consume caffeinated beverages in moderation for a temporary blood pressure boost.\nHealthy Snacks: Snack on nuts, seeds, and fruits for a quick energy boost.\nCompression Stockings: Consider wearing compression stockings to improve blood circulation."]
+          }
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "hypotension_management",
+        "patterns": [
+          "How to manage low blood pressure?",
+          "Can you suggest tips for dealing with low blood pressure?",
+          "Tell me about lifestyle changes to address hypotension."
+        ],
+        "responses": ["Increase Fluid and Salt Intake: Drink more fluids and consider a slight increase in salt intake under professional guidance.\nSmall, Frequent Meals: Eat smaller, more frequent meals to help maintain blood sugar levels.\nCaffeine: Consume caffeinated beverages in moderation for a temporary blood pressure boost.\nHealthy Snacks: Snack on nuts, seeds, and fruits for a quick energy boost.\nCompression Stockings: Consider wearing compression stockings to improve blood circulation."],
+        "context_set": ""
+      },
+      {
+        "tag": "hypertension_management",
+        "patterns": [
+          "How to manage high blood pressure?",
+          "Can you suggest tips for dealing with high blood pressure?",
+          "Tell me about lifestyle changes to address hypertension."
+        ],
+        "responses": ["Limit Sodium Intake: Reduce the consumption of high-sodium foods for better blood pressure control.\nRegular Exercise: Engage in regular physical activity to support heart health and lower blood pressure.\nHealthy Diet: Adopt a diet rich in fruits, vegetables, whole grains, and lean proteins for overall cardiovascular wellness.\nStress Management: Practice stress-reducing techniques such as meditation and deep breathing to help manage hypertension.\nLimit Alcohol: Consume alcohol in moderation or consider avoiding it to maintain healthy blood pressure levels."],
+        "context_set": ""
+      },{
+        "tag": "recipe_inquiry_spaghetti_bolognese",
+        "patterns": [
+          "Can you provide a detailed recipe for Spaghetti Bolognese",
+          "Tell me how to make Spaghetti Bolognese",
+          "Give me the recipe of Spaghetti Bolognese"
+        ],
+        "responses": [
+          "For a classic Spaghetti Bolognese, you will need:\n- Ground beef\n- Onion\n- Garlic\n- Tomato paste\n- Crushed tomatoes\n- Beef broth\n- Italian seasoning\n- Salt and pepper to taste\n- Olive oil\n- Spaghetti noodles\n\nInstructions:\n1. In a pan, sauté finely chopped onion and garlic in olive oil until golden brown.\n2. Add ground beef and cook until browned.\n3. Stir in tomato paste, crushed tomatoes, beef broth, Italian seasoning, salt, and pepper.\n4. Simmer on low heat for at least 30 minutes to let the flavors meld.\n5. Meanwhile, cook spaghetti noodles according to package instructions.\n6. Serve the Bolognese sauce over the cooked spaghetti.\n7. Garnish with grated Parmesan cheese and fresh basil.\nEnjoy your homemade Spaghetti Bolognese!"
+        ],"context_set": ""
+      },
+      {
+        "tag": "recipe_inquiry_caesar_salad",
+        "patterns": [
+          "Can you provide a detailed recipe for Caesar Salad",
+          "Tell me how to make Caesar Salad",
+          "Give me the recipe of Caesar Salad"
+        ],
+        "responses": [
+          "For a classic Caesar Salad, you will need:\n- Romaine lettuce\n- Croutons\n- Parmesan cheese\n- Caesar dressing\n\nInstructions:\n1. Wash and chop the Romaine lettuce.\n2. Toss in croutons and grated Parmesan cheese.\n3. Drizzle with Caesar dressing.\n4. Toss everything together until well coated.\n5. Serve in a bowl or on a plate.\n6. Optionally, add grilled chicken for a Caesar Chicken Salad.\nEnjoy your homemade Caesar Salad!"
+        ],"context_set": ""
+      },{
+        "tag": "recipe_inquiry_avocado_toast",
+        "patterns": [
+          "Can you provide a detailed recipe for Avocado Toast",
+          "Tell me how to make Avocado Toast",
+          "Give me the recipe of Avocado Toast"
+        ],
+        "responses": [
+          "For a simple Avocado Toast, you will need:\n- Bread slices (whole grain or your preference)\n- Ripe avocados\n- Lemon juice\n- Salt and pepper to taste\n- Optional toppings: poached egg, cherry tomatoes, red pepper flakes\n\nInstructions:\n1. Toast the bread slices to your desired level of crispiness.\n2. While the bread is toasting, mash ripe avocados in a bowl.\n3. Add a splash of lemon juice, salt, and pepper to the mashed avocado and mix well.\n4. Once the bread is toasted, spread the avocado mixture generously on each slice.\n5. Add your choice of optional toppings.\n6. Sprinkle with additional salt and pepper if desired.\n7. Enjoy your delicious and nutritious Avocado Toast!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "recipe_inquiry_chicken_stir_fry",
+        "patterns": [
+          "Can you provide a detailed recipe for Chicken Stir Fry",
+          "Tell me how to make Chicken Stir Fry",
+          "Give me the recipe of Chicken Stir Fry"
+        ],
+        "responses": [
+          "For a tasty Chicken Stir Fry, you will need:\n- Boneless, skinless chicken breasts, thinly sliced\n- Mixed vegetables (broccoli, bell peppers, snap peas, carrots)\n- Soy sauce\n- Sesame oil\n- Garlic, minced\n- Ginger, grated\n- Cornstarch\n- Rice or noodles for serving\n\nInstructions:\n1. In a bowl, mix sliced chicken with soy sauce and a tablespoon of cornstarch.\n2. Heat sesame oil in a pan or wok. Add minced garlic and grated ginger.\n3. Stir-fry the marinated chicken until cooked through.\n4. Add mixed vegetables and continue stir-frying until veggies are tender-crisp.\n5. Season with additional soy sauce if needed.\n6. Serve over rice or noodles.\nEnjoy your homemade Chicken Stir Fry!"
+        ],
+        "context_set": ""
+      },{
+        "tag": "recipe_salmon",
+        "patterns": ["Salmon recipe", "How to cook Salmon", "Salmon cooking instructions"],
+        "responses": [
+          "For a delightful Salmon dish, you'll need:\n- Salmon fillets\n- Lemon juice\n- Minced garlic\n- Dijon mustard\n- Honey\n- Olive oil\n- Fresh dill (optional)\n\nInstructions:\n1. Preheat your oven to 400°F (200°C).\n2. In a bowl, mix lemon juice, minced garlic, Dijon mustard, honey, and olive oil.\n3. Place salmon fillets on a baking sheet, and brush the mixture over each fillet.\n4. Bake for 15-20 minutes or until salmon is cooked through.\n5. Garnish with fresh dill if desired.\n6. Serve and enjoy your delicious homemade Salmon!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "recipe_avocado_toast",
+        "patterns": ["Avocado Toast recipe", "How to make Avocado Toast", "Avocado Toast cooking instructions"],
+        "responses": [
+          "For a tasty Avocado Toast, you'll need:\n- Bread slices\n- Ripe avocados\n- Cherry tomatoes, sliced\n- Red pepper flakes\n- Salt and pepper\n- Olive oil\n\nInstructions:\n1. Toast the bread slices to your liking.\n2. Mash ripe avocados and spread the mixture onto the toasted bread.\n3. Top with sliced cherry tomatoes.\n4. Sprinkle red pepper flakes, salt, and pepper to taste.\n5. Drizzle with olive oil.\n6. Your delicious Avocado Toast is ready to be served!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "recipe_quinoa_salad",
+        "patterns": ["Quinoa Salad recipe", "How to prepare Quinoa Salad", "Quinoa Salad cooking instructions"],
+        "responses": [
+          "For a refreshing Quinoa Salad, gather these ingredients:\n- Cooked quinoa\n- Cherry tomatoes, halved\n- Cucumber, diced\n- Red onion, finely chopped\n- Feta cheese, crumbled\n- Kalamata olives, sliced\n- Fresh parsley, chopped\n- Olive oil\n- Lemon juice\n- Salt and pepper\n\nInstructions:\n1. In a large bowl, combine cooked quinoa, cherry tomatoes, cucumber, red onion, feta cheese, olives, and parsley.\n2. In a small bowl, whisk together olive oil, lemon juice, salt, and pepper.\n3. Pour the dressing over the quinoa mixture and toss to combine.\n4. Refrigerate for at least 30 minutes before serving.\n5. Enjoy your nutritious Quinoa Salad!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "recipe_grilled_chicken",
+        "patterns": ["Grilled Chicken recipe", "How to grill Chicken", "Grilled Chicken cooking instructions"],
+        "responses": [
+          "For succulent Grilled Chicken, you'll need:\n- Chicken breasts\n- Olive oil\n- Garlic powder\n- Paprika\n- Dried thyme\n- Salt and pepper\n\nInstructions:\n1. Preheat your grill to medium-high heat.\n2. In a bowl, mix olive oil, garlic powder, paprika, dried thyme, salt, and pepper.\n3. Coat chicken breasts with the mixture.\n4. Grill chicken for 6-8 minutes per side or until fully cooked.\n5. Allow the chicken to rest for a few minutes before serving.\n6. Serve your flavorful Grilled Chicken with your favorite sides!"
+        ],
+        "context_set": ""
+      }
+      
+      
+      
+]
+}
